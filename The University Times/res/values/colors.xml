@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="softgrey">#fefefe</color>
+    <color name="offwhite">#fffbfb</color>
+    <color name="darkgrey">#eeeeee</color>
+    <color name="darkestgrey">#cccccc</color>
+    <color name="purple">#8c1363</color>
+
+</resources>
