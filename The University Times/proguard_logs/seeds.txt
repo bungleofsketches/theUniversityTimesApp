@@ -1,0 +1,127 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.conor.android.UniversityTimes.ArticleActivity
+com.conor.android.UniversityTimes.ArticleActivity: ArticleActivity()
+com.conor.android.UniversityTimes.MainActivity
+com.conor.android.UniversityTimes.MainActivity: MainActivity()
+com.conor.android.theUniversityTimes.R$array: int planets_array
+com.conor.android.theUniversityTimes.R$color: int darkestgrey
+com.conor.android.theUniversityTimes.R$color: int darkgrey
+com.conor.android.theUniversityTimes.R$color: int offwhite
+com.conor.android.theUniversityTimes.R$color: int purple
+com.conor.android.theUniversityTimes.R$color: int softgrey
+com.conor.android.theUniversityTimes.R$dimen: int activity_horizontal_margin
+com.conor.android.theUniversityTimes.R$dimen: int activity_vertical_margin
+com.conor.android.theUniversityTimes.R$drawable: int action_refresh
+com.conor.android.theUniversityTimes.R$drawable: int action_search
+com.conor.android.theUniversityTimes.R$drawable: int cool
+com.conor.android.theUniversityTimes.R$drawable: int drawer_shadow
+com.conor.android.theUniversityTimes.R$drawable: int dropshadow
+com.conor.android.theUniversityTimes.R$drawable: int ic_drawer
+com.conor.android.theUniversityTimes.R$drawable: int ic_launcher
+com.conor.android.theUniversityTimes.R$drawable: int universitytimes
+com.conor.android.theUniversityTimes.R$id: int action_settings
+com.conor.android.theUniversityTimes.R$id: int article_page
+com.conor.android.theUniversityTimes.R$id: int content_frame
+com.conor.android.theUniversityTimes.R$id: int disqus_webview
+com.conor.android.theUniversityTimes.R$id: int drawer_layout
+com.conor.android.theUniversityTimes.R$id: int featuredimage
+com.conor.android.theUniversityTimes.R$id: int heading
+com.conor.android.theUniversityTimes.R$id: int image
+com.conor.android.theUniversityTimes.R$id: int left_drawer
+com.conor.android.theUniversityTimes.R$id: int share
+com.conor.android.theUniversityTimes.R$layout: int activity_article
+com.conor.android.theUniversityTimes.R$layout: int activity_main
+com.conor.android.theUniversityTimes.R$layout: int article_button
+com.conor.android.theUniversityTimes.R$layout: int disqus_layout
+com.conor.android.theUniversityTimes.R$layout: int drawer_list_item
+com.conor.android.theUniversityTimes.R$layout: int fragment_category
+com.conor.android.theUniversityTimes.R$layout: int fragment_planet
+com.conor.android.theUniversityTimes.R$layout: int list_item
+com.conor.android.theUniversityTimes.R$menu: int article
+com.conor.android.theUniversityTimes.R$menu: int disqus
+com.conor.android.theUniversityTimes.R$menu: int main
+com.conor.android.theUniversityTimes.R$string: int action_settings
+com.conor.android.theUniversityTimes.R$string: int action_websearch
+com.conor.android.theUniversityTimes.R$string: int app_name
+com.conor.android.theUniversityTimes.R$string: int app_not_available
+com.conor.android.theUniversityTimes.R$string: int drawer_close
+com.conor.android.theUniversityTimes.R$string: int drawer_open
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType[] values()
+com.nostra13.universalimageloader.core.assist.FailReason$FailType: com.nostra13.universalimageloader.core.assist.FailReason$FailType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom[] values()
+com.nostra13.universalimageloader.core.assist.LoadedFrom: com.nostra13.universalimageloader.core.assist.LoadedFrom valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType[] values()
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme[] values()
+com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme: com.nostra13.universalimageloader.core.download.ImageDownloader$Scheme valueOf(java.lang.String)

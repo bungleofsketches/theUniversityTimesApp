@@ -17,5 +17,5 @@
         android:gravity="center_vertical|center_horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="It's not you it's us..." />
+        android:text="Articles are loading..." />
 </LinearLayout>

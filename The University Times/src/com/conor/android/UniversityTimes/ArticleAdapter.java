@@ -2,6 +2,7 @@ package com.conor.android.UniversityTimes;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.navigationdrawerexample.R;
+import com.conor.android.theUniversityTimes.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
@@ -48,6 +49,7 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
 
         if (i != null) {
 
+
             TextView heading = (TextView) v.findViewById(R.id.heading);
             // check to see if each individual textview is null.
             // if not, assign some text!
@@ -56,6 +58,9 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
             }
 
             ImageView featuredimage = (ImageView) v.findViewById(R.id.featuredimage);
+            Drawable d = getContext().getResources().getDrawable(R.drawable.utblank);
+
+            featuredimage.setImageDrawable(d) ;
             String imageUrl = i.getImageurl();
             ImageLoader imageLoader = ImageLoader.getInstance();
             imageLoader.init(ImageLoaderConfiguration.createDefault(this.getContext()));

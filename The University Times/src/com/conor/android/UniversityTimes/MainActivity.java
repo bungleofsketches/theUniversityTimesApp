@@ -27,8 +27,9 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
-import com.example.android.navigationdrawerexample.R;
+import com.conor.android.theUniversityTimes.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -52,7 +53,7 @@ public class MainActivity extends Activity {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
-    public boolean firstlaunch = true;
+    public boolean firstLaunch = true;
     public boolean pauseScroll = true;
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
@@ -67,15 +68,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //this is so we are passing the correct list to the m_artadapter
-        if (savedInstanceState == null) {
-            m_articles.add(new ArrayList<Article>());
-        }
-        setContentView(R.layout.activity_main);
-        firstlaunch = false;
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
+
+        if (savedInstanceState == null) {
+            super.onCreate(savedInstanceState);
+           m_articles.add(new ArrayList<Article>());
+        }
+
+        setContentView(R.layout.activity_main);
+        firstLaunch = false;
 
         fragmentManager = getFragmentManager();
         mTitle = mDrawerTitle = getTitle();
@@ -151,14 +152,16 @@ public class MainActivity extends Activity {
 
         // Handle action buttons
         switch (item.getItemId()) {
-            /*case R.id.action_refresh:
+            case R.id.action_refresh:
                 if(isNetworkAvailable(getApplication())==true){
-                    manager.reLoadCategory(getActionBar().getTitle().toString());
+                    Toast toast = Toast.makeText(getApplicationContext(), "Loads of internet...", 1);
+                    toast.show();
+                    //manager.reLoadCategory(getActionBar().getTitle().toString());
                 }else{
                     Toast toast = Toast.makeText(getApplicationContext(), "No internet..." + "Soz babes xOxOx", 1);
                     toast.show();
                 }
-                return true;*/
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -215,13 +218,10 @@ public class MainActivity extends Activity {
 
     public class MyCategoryFragment extends ListFragment implements OnScrollListener {
         public ArticleAdapter m_artadapter;
-
         public ArticleAdapter getAdapter() {
             return this.m_artadapter;
         }
-
         public MyCategoryFragment() {
-            super();
         }
 
         @Override
@@ -237,7 +237,7 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_category, container, false);
             int index = 0;
-            if (firstlaunch == false) {
+            if (firstLaunch == false) {
                 index = Arrays.asList(mCategories).indexOf(getActionBar().getTitle());
             }
 
@@ -321,8 +321,13 @@ public class MainActivity extends Activity {
 
         boolean reLoadCategory(String name) {
             int index = Arrays.asList(mCategories).indexOf(name);
-            m_articles.get(index).addAll(0, newArticles);
+            m_articles.get(index).get(0);
             MyCategoryFragment frag = (MyCategoryFragment) fragmentManager.findFragmentByTag(name);
+
+            //grabArticlesParams params = new grabArticlesParams(10, name, 0, index);
+            //new grabArticles().execute(params);
+            Log.v("", "Called grabArticlesfor cat " + name);
+
             Log.v("frag", "Should be updating the category now");
             frag.getAdapter().notifyDataSetChanged();
             return true;
@@ -375,9 +380,13 @@ public class MainActivity extends Activity {
                     Log.v("Null pointer", "");
                 }
             }
+            try{
             MyCategoryFragment frag = (MyCategoryFragment) fragmentManager.findFragmentByTag(name);
             Log.v("frag", "Should be Loading the category now");
-            frag.m_artadapter.notifyDataSetChanged();
+            frag.getAdapter().notifyDataSetChanged();
+            }catch(NullPointerException n){
+                Log.v("Fragment data set changed", "null pointer exception");
+            }
         }
 
         public ArrayList<Article> doInBackground(grabArticlesParams... params) {
@@ -526,6 +535,9 @@ public class MainActivity extends Activity {
                 int idx = valids.size() - 1;
 
                 Log.v(TAG, "we are looking at position " + idx);
+
+                if(valids.size() < 10)
+                    amount = valids.size();
 
                 for (int i = 0; i < amount; i++) {
                     url = base_url + category + "/" + valids.get(idx);

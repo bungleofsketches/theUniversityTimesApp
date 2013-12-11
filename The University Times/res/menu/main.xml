@@ -14,9 +14,9 @@
   limitations under the License.
   -->
 
-<menu>
-    <!--item android:id="@+id/action_refresh"
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_refresh"
           android:icon="@drawable/action_refresh"
           android:title="@string/action_websearch"
-          android:showAsAction="ifRoom|withText" /-->
+          android:showAsAction="ifRoom|withText" />
 </menu>

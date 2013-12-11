@@ -11,11 +11,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ShareActionProvider;
 
-import com.example.android.navigationdrawerexample.R;
+import com.conor.android.theUniversityTimes.R;
+
 
 public class ArticleActivity extends Activity {
     static LayoutParams lpsmallbutton = new LayoutParams(LayoutParams.MATCH_PARENT, 50);
-    static String articleBody, url;
     private int article_id;
     private static final String TAG = "MyActivity";
     private ShareActionProvider mShareActionProvider;
@@ -39,12 +39,26 @@ public class ArticleActivity extends Activity {
 
         article_id = intent.getIntExtra("article_id", 0);
 
-        WebView webView = (WebView) findViewById(R.id.article_page);
-        webView.canGoBackOrForward(0);
+        final WebView webView = (WebView) findViewById(R.id.article_page);
+        webView.getSettings().setJavaScriptEnabled(true);
 
         webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url)
+            {
+                view.loadUrl("javascript:(function() { " +
+                        "document.getElementsByTagName('nav')[0].style.display = 'none';"+
+                        "})()");
 
+                view.loadUrl("javascript:(function() { " +
+                        "document.getElementById('relatedposts').style.display = 'none';"+
+                        "})()");
 
+                view.loadUrl("javascript:(function() { " +
+                        "document.getElementById('ssba').style.display = 'none';"+
+                        "})()");
+
+            }
         });
 
 
