@@ -24,10 +24,6 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
     public ArticleAdapter(Context context, int textViewResourceId, ArrayList<Article> objects) {
         super(context, textViewResourceId, objects);
         this.objects = objects;
-
-        //list.setOnScrollListener(this);
-
-
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -42,14 +38,9 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
             v = inflater.inflate(R.layout.article_button, parent, false);
         }
 
-		/*
-         *   i refers to the current Item object.
-		 */
         Article i = objects.get(position);
 
         if (i != null) {
-
-
             TextView heading = (TextView) v.findViewById(R.id.heading);
             // check to see if each individual textview is null.
             // if not, assign some text!
@@ -62,9 +53,9 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
 
             featuredimage.setImageDrawable(d) ;
             String imageUrl = i.getImageurl();
-            ImageLoader imageLoader = ImageLoader.getInstance();
-            imageLoader.init(ImageLoaderConfiguration.createDefault(this.getContext()));
-            imageLoader.displayImage(imageUrl, featuredimage);
+
+            // Then later, when you want to display image
+            ImageLoader.getInstance().displayImage(imageUrl, featuredimage); // Default options will be used
 
             Typeface museo = Typeface.createFromAsset(getContext().getAssets(), "fonts/Museo_Slab_500.otf");
             heading.setTypeface(museo);

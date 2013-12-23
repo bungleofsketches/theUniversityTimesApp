@@ -10,7 +10,6 @@ import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -30,6 +29,10 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.conor.android.theUniversityTimes.R;
+import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -69,6 +72,15 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
+        .cacheInMemory(true)
+        .cacheOnDisc(true)
+        .build();
+
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(this.getApplicationContext())
+                .defaultDisplayImageOptions(defaultOptions)
+                .build();
+        ImageLoader.getInstance().init(config);
 
         if (savedInstanceState == null) {
             super.onCreate(savedInstanceState);
@@ -153,10 +165,8 @@ public class MainActivity extends Activity {
         // Handle action buttons
         switch (item.getItemId()) {
             case R.id.action_refresh:
-                if(isNetworkAvailable(getApplication())==true){
-                    Toast toast = Toast.makeText(getApplicationContext(), "Loads of internet...", 1);
-                    toast.show();
-                    //manager.reLoadCategory(getActionBar().getTitle().toString());
+                if(isNetworkAvailable(getApplication())){
+                    manager.reLoadCategory(getActionBar().getTitle().toString());
                 }else{
                     Toast toast = Toast.makeText(getApplicationContext(), "No internet..." + "Soz babes xOxOx", 1);
                     toast.show();
@@ -237,7 +247,7 @@ public class MainActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_category, container, false);
             int index = 0;
-            if (firstLaunch == false) {
+            if (!firstLaunch) {
                 index = Arrays.asList(mCategories).indexOf(getActionBar().getTitle());
             }
 
@@ -258,14 +268,7 @@ public class MainActivity extends Activity {
                 if (!pauseScroll) {
                     manager.loadMoreCategory(getActionBar().getTitle().toString());
                 }
-                //addData(getActionBar().getTitle().toString());
             }
-        }
-
-        private void addData(String name) {
-            manager.loadMoreCategory("");
-            m_artadapter.notifyDataSetChanged();
-
         }
 
         public void onScrollStateChanged(AbsListView arg0, int arg1) {
@@ -310,7 +313,7 @@ public class MainActivity extends Activity {
             pauseScroll = true;
             int index = Arrays.asList(mCategories).indexOf(name);
             if (m_articles.get(index).isEmpty()) {
-                grabArticlesParams params = new grabArticlesParams(amount, name, 0);
+                grabArticlesParams params = new grabArticlesParams(amount, name, 0, 0);
                 new grabArticles().execute(params);
                 Log.v("", "Called grabArticlesfor cat " + name);
                 //return m_articles.get(index);
@@ -324,11 +327,14 @@ public class MainActivity extends Activity {
             m_articles.get(index).get(0);
             MyCategoryFragment frag = (MyCategoryFragment) fragmentManager.findFragmentByTag(name);
 
-            //grabArticlesParams params = new grabArticlesParams(10, name, 0, index);
-            //new grabArticles().execute(params);
-            Log.v("", "Called grabArticlesfor cat " + name);
-
-            Log.v("frag", "Should be updating the category now");
+            grabArticlesParams params = new grabArticlesParams(10, name, 0, index);
+            if(isNetworkAvailable(getApplication())){
+                new grabArticles().execute(params);
+            }else{
+                Toast toast = Toast.makeText(getApplicationContext(), "Sorry, We need internet access to do that", 1);
+                toast.show();
+            }
+            Log.v("", "Called reload Articlesfor cat " + name);
             frag.getAdapter().notifyDataSetChanged();
             return true;
         }
@@ -339,16 +345,20 @@ public class MainActivity extends Activity {
             int last = m_articles.get(index).size() - 1;
             int id = m_articles.get(index).get(last).getId();
 
-            grabArticlesParams params = new grabArticlesParams(5, name, id);
-            new grabArticles().execute(params);
+            grabArticlesParams params = new grabArticlesParams(5, name, id, 0);
+            if(isNetworkAvailable(getApplication())==true){
+                new grabArticles().execute(params);
+            }else{
+                Toast toast = Toast.makeText(getApplicationContext(), "Sorry, We need internet access to do that", 1);
+                toast.show();
+            }
             Log.v("", "Called grabMoreArticles for cat " + name);
-            //return m_articles.get(index);
-
             return true;
         }
     }
 
     public class grabArticles extends AsyncTask<grabArticlesParams, Void, ArrayList<Article>> {
+        boolean refreshing = false;
         private InputStream is = null;
         private JSONObject jObj = null;
         private String json = "";
@@ -372,20 +382,34 @@ public class MainActivity extends Activity {
         public void onPostExecute(ArrayList<Article> result) {
             pauseScroll = false;
             newArticles = result;
-            for (int i = 0; i < newArticles.size(); i++) {
-                m_articles.get(index).add(newArticles.get(i));
-                try {
-                    Log.v("loadCategories", newArticles.get(i).getHeading());
-                } catch (NullPointerException n) {
-                    Log.v("Null pointer", "");
+                if(refreshing){
+                    for (int i = newArticles.size() - 1; i <= 0; i--) {
+                        m_articles.get(index).add(0, newArticles.get(i));
+
+                        try {
+                            Log.v("loadCategories", newArticles.get(i).getHeading());
+                        } catch (NullPointerException n) {
+                            Log.v("Null pointer", "");
+                        }
+                    }
                 }
-            }
-            try{
-            MyCategoryFragment frag = (MyCategoryFragment) fragmentManager.findFragmentByTag(name);
-            Log.v("frag", "Should be Loading the category now");
-            frag.getAdapter().notifyDataSetChanged();
-            }catch(NullPointerException n){
-                Log.v("Fragment data set changed", "null pointer exception");
+                else{
+                for (int i = 0; i < newArticles.size(); i++) {
+                        m_articles.get(index).add(newArticles.get(i));
+
+                    try {
+                        Log.v("loadCategories", newArticles.get(i).getHeading());
+                    } catch (NullPointerException n) {
+                        Log.v("Null pointer", "");
+                    }
+                }
+                try{
+                MyCategoryFragment frag = (MyCategoryFragment) fragmentManager.findFragmentByTag(name);
+                Log.v("frag", "Should be Loading the category now");
+                frag.getAdapter().notifyDataSetChanged();
+                }catch(NullPointerException n){
+                    Log.v("Fragment data set changed", "null pointer exception");
+                }
             }
         }
 
@@ -394,6 +418,7 @@ public class MainActivity extends Activity {
             int amount = params[0].amount;
             String category = params[0].category;
             int before_id = params[0].before_id;
+            int first_id = params[0].first_id;
             Article myArticle = null;
             String base_url = "http://universitytimes.ie/mobile/";
             String url = "";
@@ -514,8 +539,66 @@ public class MainActivity extends Activity {
 
             }
 
+            //all categories & its refresh
+            if (first_id != 0) {
+
+
+                String[] str_valids = new String[0];
+                try {
+                    String[] str_validsI = null;
+                    validParams val = new validParams("main");
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) { // Build.VERSION_CODES.HONEYCOMB = 11
+                        str_validsI = new getValids().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"main"}).get();
+                    } else {
+                        str_validsI = new getValids().execute("main").get();
+                    }
+                    str_valids = str_validsI;
+                } catch (InterruptedException e) {
+                } catch (ExecutionException f) {
+                }
+                List<String> valids = new ArrayList(Arrays.asList(str_valids));
+
+                Log.v(TAG, "Looking for" + before_id);
+
+                if(!category.equals("main"))
+                    base_url = base_url + category + "/";
+
+                int idx = valids.indexOf(Integer.toString(before_id)) - 1;
+                int i = 0;
+
+                while (i <idx && i < 10) {
+                    url = base_url + valids.get(idx);
+                    try {
+                        JSONObject jObj = getJSONFromUrl(url);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+                    if (jObj != null) {
+                        try {
+                            CharSequence heading = Html.fromHtml(jObj.getString("Heading"));
+
+                            myArticle = new Article(jObj.getInt("ID"), heading.toString(),
+                                    jObj.getString("Body"), jObj.getString("Imageurl"));
+                            Log.v("article id: ", String.valueOf(myArticle.getId()));
+                        } catch (JSONException e) {
+                            Log.e("JSON Parser", "Error parsing data " + e.toString());
+
+                        }
+                    }
+
+                    if (jObj != null) {
+                        articles.add(myArticle);
+                    }
+
+                    i++;
+                }
+                return articles;
+
+            }
+
             //category, no id
-            if (before_id == 0) {
+            if (!category.equals("main") && before_id == 0) {
                 Log.v("", "no category");
                 String[] str_valids = new String[0];
                 try {

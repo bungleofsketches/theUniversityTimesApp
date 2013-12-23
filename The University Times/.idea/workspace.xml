@@ -82,18 +82,25 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="328" column="26" selection-start="12326" selection-end="12326" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="11084">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="333" column="33" selection-start="12685" selection-end="12685" vertical-scroll-proportion="0.0" vertical-offset="5661" max-vertical-offset="12597">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+      <file leaf-file-name="getCategories.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/getCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+            <state line="47" column="51" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="21" selection-start="355" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
@@ -102,71 +109,30 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="782">
+            <state line="10" column="43" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validParams.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="13" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.8045977" vertical-offset="343" max-vertical-offset="1700">
-              <folding>
-                <element signature="e#1556#2246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_category.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="article_button.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/article_button.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="242" selection-end="242" vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ArticleAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="35" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1428">
+            <state line="57" column="108" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1275">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="universitytimes.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/universitytimes.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utlogo.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/utlogo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cool.bmp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/cool.bmp">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -196,16 +162,19 @@
         <option value="$PROJECT_DIR$/res/layout/drawer_list_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_category.xml" />
-        <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/menu/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/grabArticlesParams.java" />
+        <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/article_button.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1603" />
+    <option name="x" value="-7" />
+    <option name="width" value="1607" />
     <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -235,7 +204,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,24 +232,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theUniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The University Times" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -300,72 +250,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theUniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The University Times" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theUniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The University Times" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theUniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The University Times" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theUniversityTimes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="The University Times" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,19 +323,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -470,6 +348,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -589,12 +480,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1603" height="860" extended-state="0" />
+    <frame x="-7" y="0" width="1607" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24563445" sideWeight="0.8497191" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -604,20 +496,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3204952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12654746" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09353507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16068053" sideWeight="0.9957865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12193589" sideWeight="0.9957865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4167813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24563445" sideWeight="0.8497191" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -627,13 +518,13 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21248424" sideWeight="0.9957865" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3976532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3976532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,8 +537,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285528" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985657" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -668,30 +559,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="55" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
@@ -719,9 +599,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="526" column="39" selection-start="20638" selection-end="20638" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10999">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,28 +612,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
@@ -768,9 +640,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="0" selection-start="7624" selection-end="7624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10999">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,28 +653,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
@@ -817,9 +681,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="0" selection-start="7624" selection-end="7624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10999">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,28 +694,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
@@ -866,9 +722,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="207" column="0" selection-start="7624" selection-end="7624" vertical-scroll-proportion="0.0" vertical-offset="3519" max-vertical-offset="10999">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,28 +735,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1887">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
@@ -917,11 +765,6 @@
         <state line="2" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/getCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/getValids.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="13" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1870" />
@@ -930,11 +773,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/grabArticles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="4318" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/grabArticlesParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/conor/android/UniversityTimes/BuildConfig.java">
@@ -950,50 +788,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/disqus_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/validParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="329" selection-end="329" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_category.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/universitytimes.png">
@@ -1006,47 +836,63 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="35" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/cool.bmp">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="782">
+        <state line="21" column="7" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/grabArticlesParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="355" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="57" column="108" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/getCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="51" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="26" selection-start="12326" selection-end="12326" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="11084">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="333" column="33" selection-start="12685" selection-end="12685" vertical-scroll-proportion="0.0" vertical-offset="5661" max-vertical-offset="12597">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/conor/android/UniversityTimes/ArticleActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="13" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.8045977" vertical-offset="343" max-vertical-offset="1700">
-          <folding>
-            <element signature="e#1556#2246#0" expanded="true" />
-          </folding>
+        <state line="10" column="43" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/article_button.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="242" selection-end="242" vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
+          <folding />
         </state>
       </provider>
     </entry>
